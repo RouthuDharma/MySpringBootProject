@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "FRONT_SCANNER_IP",
+  "type": "java.lang.String",
+  "description": "A description for 'FRONT_SCANNER_IP'"
+}]}
