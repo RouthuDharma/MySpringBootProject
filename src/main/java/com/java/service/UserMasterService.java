@@ -34,9 +34,14 @@ public class UserMasterService {
             return response;
         }
 
+        
+        
         UserMaster user = userOpt.get();
+        
+      
 
         if (!password.equals(user.getPassword())) {
+        	
             response.put("statusCode", Constants.StatusCode.error);
             response.put("status", Constants.Messages.error);
             response.put("message", "Invalid password!");
