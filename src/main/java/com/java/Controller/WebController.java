@@ -18,12 +18,12 @@ public class WebController {
  
     @PostMapping("/welcome")
     public ResponseEntity<Map<String, Object>> welcome() {
-        log.info("Welcome to ravikumar medi java spring boot project");
+        log.info("Welcome to BDRsquare java spring boot project");
 
         Map<String, Object> response = new HashMap<>();
         response.put("statusCode", Constants.StatusCode.success);
         response.put("status", Constants.Messages.success);
-        response.put("message", "Welcome to ravikumar medi java spring boot project");
+        response.put("message", "Welcome to BDRsquare java spring boot project");
         
         return ResponseEntity.ok(response); 
     }
